@@ -23,7 +23,18 @@ int main (){
     printf("Escolha a opçao:");
     scanf("%c", &primeiroAtributo); 
     printf("Voce escolheu a opção: %c\n", primeiroAtributo);
-
+    
+    switch (primeiroAtributo)
+    {
+    case 'A':
+    case 'a':
+        printf("Voce escolheu a opçao A");
+        break
+    
+    default:
+        printf('Opção invalida');
+        
+    }
 
     
 
